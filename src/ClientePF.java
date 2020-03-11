@@ -3,6 +3,7 @@ public class ClientePF extends Cliente {
 	
 	private String nome;
 	private String cpf;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -15,8 +16,9 @@ public class ClientePF extends Cliente {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
-	public ClientePF(String cpf) {
+	public ClientePF(String nome, String cpf) {
 		super();
+		this.nome = nome;
 		this.cpf = cpf;
 	}
 	

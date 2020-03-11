@@ -53,5 +53,22 @@ public class Venda {
 	public void setTotal(Double total) {
 		this.total = total;
 	}
+	public void addItem(ItemVenda produto) {
+		itemVendidos.add(produto);
+	}
+	
+	public Venda(VendaBuild vendaBuild){
+		this.builder = vendaBuild;
+	}
+	public Venda(String data){
+		this.data = data;
+	}
+	public Venda() {
+	}
+	@Override
+	public String toString() {
+		return "Venda [data=" + data + ", builder=" + builder + ", itemVendidos=" + itemVendidos + ", cliente="
+				+ cliente + ", funcionario=" + funcionario + ", frete=" + frete + ", total=" + total + "]";
+	}
 
 }
