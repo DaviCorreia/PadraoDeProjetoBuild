@@ -1,5 +1,5 @@
 
-public class ClientePF {
+public class ClientePF extends Cliente {
 	
 	private String nome;
 	private String cpf;

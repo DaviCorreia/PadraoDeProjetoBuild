@@ -3,9 +3,12 @@ public class VendaBuild {
 	
 	private Venda venda;
 	
-	private VendaBuild data (String data ) {
+	public VendaBuild () {
+		venda = new Venda();
+	}
+	public VendaBuild data (String data) {
 		venda.setData(data);
-		
+		return this;
 	}
 
 }
