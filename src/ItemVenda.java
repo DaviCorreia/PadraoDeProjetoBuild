@@ -8,8 +8,6 @@ public class ItemVenda {
 		this.quantidade = quantidade;
 	}
 
-	
-
 	public int getQuantidade() {
 		return quantidade;
 	}
